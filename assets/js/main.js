@@ -154,12 +154,5 @@ console.log(randomSong(songs));
 
 //20. Write your own function using at least 3 concepts.
 
-//Mostrar el titulo, artista y año de las canciones a partir de los 80 y sumar los años de estas.
-
-const myOwnFunction = songs.filter((song) => song.year > 1980);
-console.log("20", `${title} by ${artist} - ${year}`);
-
-const totalNumber = myOwnFunction.reduce((acc, curr) => acc + curr.year, 0);
-console.log("20", totalNumberYears);
 
 
